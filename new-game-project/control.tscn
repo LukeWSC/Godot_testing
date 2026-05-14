@@ -1,0 +1,213 @@
+[gd_scene format=3 uid="uid://ccll1wxnwvcqf"]
+
+[ext_resource type="Script" uid="uid://ii0fngbg284o" path="res://array_testing.gd" id="1_0fbet"]
+
+[node name="Control" type="Control" unique_id=1319768279]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="ColorRect" parent="." unique_id=2142234377]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.5372549, 0.5372549, 0.5372549, 1)
+
+[node name="Panel" type="Panel" parent="." unique_id=526810576]
+clip_contents = true
+custom_minimum_size = Vector2(500, 500)
+layout_mode = 1
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="Panel" unique_id=2054230683]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel" unique_id=1006315417]
+custom_minimum_size = Vector2(400, 450)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -200.0
+offset_top = -467.0
+offset_right = 200.0
+offset_bottom = -17.0
+grow_horizontal = 2
+grow_vertical = 0
+script = ExtResource("1_0fbet")
+
+[node name="PanelContainer" type="PanelContainer" parent="Panel/VBoxContainer" unique_id=2063087195]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ColorRect" type="ColorRect" parent="Panel/VBoxContainer/PanelContainer" unique_id=157254247]
+layout_mode = 2
+color = Color(0.33779088, 0.70766664, 0.33157945, 1)
+
+[node name="CheckBox" type="CheckBox" parent="Panel/VBoxContainer/PanelContainer" unique_id=570026203]
+layout_mode = 2
+text = "Weed 1"
+
+[node name="Button" type="Button" parent="Panel/VBoxContainer/PanelContainer/CheckBox" unique_id=1588990585]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -65.0
+offset_top = -15.5
+offset_bottom = 15.5
+grow_horizontal = 0
+grow_vertical = 2
+text = "Expand"
+
+[node name="PanelContainer2" type="PanelContainer" parent="Panel/VBoxContainer" unique_id=127118873]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ColorRect" type="ColorRect" parent="Panel/VBoxContainer/PanelContainer2" unique_id=1292659783]
+layout_mode = 2
+color = Color(0.33779088, 0.70766664, 0.33157945, 1)
+
+[node name="CheckBox" type="CheckBox" parent="Panel/VBoxContainer/PanelContainer2" unique_id=1532169835]
+layout_mode = 2
+text = "Weed 2"
+
+[node name="Button" type="Button" parent="Panel/VBoxContainer/PanelContainer2/CheckBox" unique_id=1389226237]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -65.0
+offset_top = -15.5
+offset_bottom = 15.5
+grow_horizontal = 0
+grow_vertical = 2
+text = "Expand"
+
+[node name="PanelContainer3" type="PanelContainer" parent="Panel/VBoxContainer" unique_id=457444681]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ColorRect" type="ColorRect" parent="Panel/VBoxContainer/PanelContainer3" unique_id=1434358974]
+layout_mode = 2
+color = Color(0.33779088, 0.70766664, 0.33157945, 1)
+
+[node name="CheckBox" type="CheckBox" parent="Panel/VBoxContainer/PanelContainer3" unique_id=534451888]
+layout_mode = 2
+text = "Weed 3"
+
+[node name="Button" type="Button" parent="Panel/VBoxContainer/PanelContainer3/CheckBox" unique_id=1742012038]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -65.0
+offset_top = -15.5
+offset_bottom = 15.5
+grow_horizontal = 0
+grow_vertical = 2
+text = "Expand"
+
+[node name="PanelContainer4" type="PanelContainer" parent="Panel/VBoxContainer" unique_id=760030117]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ColorRect" type="ColorRect" parent="Panel/VBoxContainer/PanelContainer4" unique_id=880394962]
+layout_mode = 2
+color = Color(0.33779088, 0.70766664, 0.33157945, 1)
+
+[node name="CheckBox" type="CheckBox" parent="Panel/VBoxContainer/PanelContainer4" unique_id=830122307]
+layout_mode = 2
+text = "Weed 4"
+
+[node name="Button" type="Button" parent="Panel/VBoxContainer/PanelContainer4/CheckBox" unique_id=1208616104]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -65.0
+offset_top = -15.5
+offset_bottom = 15.5
+grow_horizontal = 0
+grow_vertical = 2
+text = "Expand"
+
+[node name="PanelContainer5" type="PanelContainer" parent="Panel/VBoxContainer" unique_id=1057772902]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ColorRect" type="ColorRect" parent="Panel/VBoxContainer/PanelContainer5" unique_id=2123410243]
+layout_mode = 2
+color = Color(0.33779088, 0.70766664, 0.33157945, 1)
+
+[node name="CheckBox" type="CheckBox" parent="Panel/VBoxContainer/PanelContainer5" unique_id=1050096156]
+layout_mode = 2
+text = "Weed 5"
+
+[node name="Button" type="Button" parent="Panel/VBoxContainer/PanelContainer5/CheckBox" unique_id=420048068]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -65.0
+offset_top = -15.5
+offset_bottom = 15.5
+grow_horizontal = 0
+grow_vertical = 2
+text = "Expand"
+
+[node name="PanelContainer6" type="PanelContainer" parent="Panel/VBoxContainer" unique_id=744815388]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ColorRect" type="ColorRect" parent="Panel/VBoxContainer/PanelContainer6" unique_id=1638318379]
+layout_mode = 2
+color = Color(0.33779088, 0.70766664, 0.33157945, 1)
+
+[node name="CheckBox" type="CheckBox" parent="Panel/VBoxContainer/PanelContainer6" unique_id=1196101500]
+layout_mode = 2
+text = "Weed 6"
+
+[node name="Button" type="Button" parent="Panel/VBoxContainer/PanelContainer6/CheckBox" unique_id=394718879]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -65.0
+offset_top = -15.5
+offset_bottom = 15.5
+grow_horizontal = 0
+grow_vertical = 2
+text = "Expand"
+
+[connection signal="pressed" from="Panel/VBoxContainer/PanelContainer/CheckBox" to="Panel/VBoxContainer" method="_on_check_box_pressed"]
