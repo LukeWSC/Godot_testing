@@ -1,24 +1,24 @@
 extends VBoxContainer
 
 @onready var questions = {
-		"Weed 1": false,
-		"Weed 2": false,
-		"Weed 3": false,
-		"Weed 4": false,
-		"Weed 5": false,
-		"Weed 6": false,
+		"Weed 1": true,
+		"Weed 2": true,
+		"Weed 3": true,
+		"Weed 4": true,
+		"Weed 5": true,
+		"Weed 6": true,
 	}
 
 signal silly()
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	questions["Weed 1"] = false
+	questions["Weed 1"] = true
 	print(questions["Weed 1"])
 	silly.connect(_on_silly)
 	
-	if questions["Weed 1"] == true:
-		print("hurray")
-		questions["Weed 6?!?!"] = false
+	#if questions["Weed 1"] == true:
+	#	print("hurray")
+	#	questions["Weed 6?!?!"] = false
 	
 	silly.emit()
 	for weed in questions:
